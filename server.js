@@ -11,7 +11,7 @@ mongoose.connect('mongodb://0.0.0.0:27017/blog', {
 	useCreateIndex: true,
 });
 
-app.set('view engine', 'js');
+app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
 app.use(methodOverride('_method'));
 
