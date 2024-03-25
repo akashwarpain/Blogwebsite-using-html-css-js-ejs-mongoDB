@@ -8,7 +8,7 @@ const app = express();
 mongoose.connect('mongodb://0.0.0.0:27017/blog', {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
-	useCreateIndex: True,
+	useCreateIndex: true,
 });
 
 app.set('view engine', 'ejs');
